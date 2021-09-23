@@ -100,6 +100,7 @@ note:
 指令: nano ~/.gitconfig
 [init]
         defaultBranch = main
+
 2. 將分支改成main
 指令: git branch -m master main
 
@@ -143,7 +144,6 @@ $ git remote add origin https/ssh
 - add: 增加
 - origin: 是這個遠端的名字，可以不要叫做 origin，但我建議不要改
 - 遠端 repo 的網址 : https /ssh
--
 
 2. push: 將本地儲存庫內容推送到遠端儲存庫並要推到主分支裡
 
@@ -199,7 +199,7 @@ windows -> 電腦本身就有內建，只需裝啟用檔即可 (nvm-setup.zip)
 
 ---
 
-# **前後端區分**
+# **前後端區分&運作流程**
 
 - 前端(Front-end): 使用者直接接觸的系統/畫面(介面)
 - 後端(Back-end): 隱藏在前端後，協助處理邏輯運算&資料處理的程式
